@@ -1,0 +1,66 @@
+.addproduct-container main{
+    max-width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.addproduct-container main form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+.addproduct-container main form label{
+    display: flex;
+    align-items: center;
+}
+.addproduct-container main form input{
+    margin: 8px 5px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    border: 2px solid black;
+}
+.addproduct-container main form input:focus{
+    border-color: #0e6ae2;
+}
+.addproduct-container main form div {
+    display: flex;
+    flex-wrap: wrap;
+}
+.addproduct-container main form div input{
+    margin: 0 auto;
+    width: auto;
+}
+.addproduct-container main form div label{
+    margin-left: 10px;
+}
+
+#desc-textarea{
+    align-items: baseline;
+    margin-right: 5px;
+}
+
+.addproduct-container main form textarea{
+    margin: 20px 0;
+    padding: 5px;
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.addproduct-container main form textarea:focus{
+    border-color: #0e6ae2;
+}
+.addproduct-container main form button{
+    border-radius: 5px;
+    border:none;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #0e6ae2;
+    color: white;
+    margin: 25px 0;
+}

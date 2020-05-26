@@ -1,0 +1,51 @@
+.addservice-container main{
+    max-width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.addservice-container main form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+.addservice-container main form input{
+    margin: 20px 0;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.addservice-container main form input:focus{
+    border-color: #0e6ae2;
+}
+.addservice-container main form div {
+    display: flex;
+    flex-wrap: wrap;
+}
+.addservice-container main form div label{
+    margin-left: 10px;
+}
+.addservice-container main form textarea{
+    margin: 20px 0;
+    padding: 5px;
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.addservice-container main form textarea:focus{
+    border-color: #0e6ae2;
+}
+.addservice-container main form button{
+    border-radius: 5px;
+    border:none;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #0e6ae2;
+    color: white;
+    margin: 25px 0;
+}

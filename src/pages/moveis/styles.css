@@ -1,0 +1,83 @@
+.moveis-container main {
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.moveis-container main .pagemap-div{
+    display: block;
+    position: static;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+.moveis-container main .main-div{
+    display: flex;
+}
+
+/*dopDown*/
+
+.orderby-div{
+    margin-left: 15px;
+}
+
+.orderby-div button{
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.orderby-drop-div{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 1px 5px black;
+    z-index: 1;
+}
+.orderby-drop-div .sortbutton{
+    text-align: left;
+    padding: 10px;
+    color: black;
+    border: none;
+}
+.orderby-drop-div .sortbutton:hover{
+    background-color: #f8f9fa;
+}
+
+.orderby-div:hover .orderby-drop-div{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+}
+.actions button{
+    border: none;
+    background: none;
+}
+.actions button:hover{
+    background-color: rgba(255,255,255,0.5);
+    cursor: pointer;
+}
+.actions p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media(max-width: 700px){
+    .moveis-container{
+        
+        margin: 85px 0;
+    }
+    .moveis-container main .main-div{
+        flex-direction: column;
+    }
+}

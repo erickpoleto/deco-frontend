@@ -1,0 +1,55 @@
+.headerdeco-container header{
+    background: url('../../../imgs/25098.jpg');
+    background-position: center;
+    background-size: cover;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.headerdeco-container header div{
+    text-align: center;
+    color: black;
+}
+
+.headerdeco-container header div span{
+    margin-bottom: 10px;
+}
+
+.headerdeco-container header div span h1{
+    color: #B1013D;
+    font-size: 5rem;
+}
+.headerdeco-container header div span h1 b{
+    color: #36057D;
+}
+.headerdeco-container header div span h2{
+    font-size: 2.2rem;
+}
+
+.headerdeco-container header ul{
+    display: flex;
+    background: #0e6ae2;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+.headerdeco-container header ul li{
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    
+    transition: 0.4s all;
+}
+.headerdeco-container header ul li:hover{
+    
+    background-color: rgba(255,255,255,0.3);
+}
+
+.headerdeco-container header ul li button {
+    background: none;
+    border: none;
+    color: white
+}
+.headerdeco-container header ul li button:hover {
+    color: #B1013D;
+}

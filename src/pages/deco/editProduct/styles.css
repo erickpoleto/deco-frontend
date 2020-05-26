@@ -1,0 +1,72 @@
+.editproduct-container main{
+    max-width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.editproduct-container main form ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.editproduct-container main form ul img{
+    width: 150px;
+    height: 150px;
+}
+
+.editproduct-container main form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+.editproduct-container main form input:focus{
+    border-color: #0e6ae2;
+}
+
+
+.editproduct-container main form input{
+    margin: 20px 0;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    border: 2px solid black;
+    margin-left: 10px;
+}
+
+.editproduct-container main form label{
+    display: flex;
+    align-items: center;
+}
+.editproduct-container main form textarea{
+    margin: 20px 0;
+    padding: 5px;
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    margin-left: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.editproduct-container main form textarea:focus{
+    border-color: #0e6ae2;
+}
+.editproduct-container main form div{
+    display: flex;
+    justify-content: space-around;
+}
+.editproduct-container main form div button{
+    border-radius: 5px;
+    border:none;
+    padding: 15px;
+    font-size: 18px;
+    width: 40%;
+    background-color: #0e6ae2;
+    color: white;
+    margin: 25px 0;
+}
+.editproduct-container main form div button:nth-child(2){
+    background-color: crimson;
+}

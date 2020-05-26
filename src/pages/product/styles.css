@@ -1,0 +1,225 @@
+.product-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: roboto;
+    background-color: white;
+}
+
+.productinfo-section{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 30px;
+
+}
+
+
+.productinfo-section .image-div{
+    width: 60%;
+}
+
+.productinfo-section .consult-info{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.consult-info .pagemap-div{
+    top: -20px;
+    left: -5px;
+}
+.consult-info .pagemap-div a{
+    margin-left: 5px;
+}
+.consult-info .pagemap-div a:nth-child(2)::after{
+    content: "";
+}
+.consult-info .pagemap-div a:nth-child(2)::before{
+    content: "/";
+    margin-right: 5px;
+}
+
+.productinfo-section .consult-info h2{
+    font-size: 1.5rem;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    padding: 10px 0;
+}
+.productinfo-section .consult-info .price-div{
+    margin-top: 20px;
+}
+.price-div span strong{
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.productinfo-section .consult-info .btn-sol-consult{
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #0e6ae2;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.productinfo-section .consult-info .btn-sol-consult:hover{
+    background-color: rgba(14, 106, 226, 0.8);
+}
+
+.desc-section{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.desc-section .desc-div{
+    display: flex;
+    flex-direction: column;
+    color: rgb(53, 52, 52);
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 1px 5px black;
+} 
+.desc-section .desc-div h5{
+    font-size: 16px;
+    border-bottom: 1px solid rgba(59, 58, 58, 0.582);
+    padding-bottom: 10px;
+} 
+.desc-section .desc-div h5 b{
+    font-size: 13px;
+} 
+.desc-section .desc-div p{
+    font-size: 14px;
+    font-family: monospace;
+    margin: 3px 0;
+} 
+.desc-section .desc-div strong{
+    font-size: 15px;
+    color: black;
+} 
+
+.comments-section{
+    margin: 10px auto 0 auto;
+    padding: 20px;
+    max-width: 1000px;
+}
+
+.comments-section .leavecomment-div{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 1px 5px black;
+}
+
+.comments-section .leavecomment-div h4{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.comment-empity-alert{
+    display: none;
+
+}
+.comment-empity-alert--active{
+    display: block;
+
+}
+.comment-empity-alert p{
+    background-color: red;
+    color:white
+}
+
+.comments-section .leavecomment-div form {
+    display: flex;
+}
+.comments-section .leavecomment-div form textarea{
+    min-width: 90%;
+    max-width: 100%;
+    min-height: 80px;
+    max-height: 200px;
+    border-radius: 5px;
+}
+.comments-section .leavecomment-div form textarea:focus{
+    border-color: coral;
+}
+.comments-section .leavecomment-div form button{
+    width: 10%;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: black;
+    background-color: coral;
+    border: none;
+    transition: 0.3s all;
+}
+.comments-section .leavecomment-div form button:hover{
+    opacity: 0.3;
+}
+
+.comments-div{
+    margin-top: 30px;
+}
+.comments-div strong{
+    font-size: 20px;
+}
+
+.commentsleaved-div .usercomment-div{
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 1px 1px 5px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.commentsleaved-div .usercomment-div div p{
+    margin-top: 5px;
+    font-size: 16px;
+}
+.commentsleaved-div .usercomment-div div h5{
+    font-size: 18px;
+}
+.commentsleaved-div .usercomment-div div h5 img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.commentsleaved-div .usercomment-div div button{
+    margin-right: 10px;
+    background: none;
+    border: none;
+}
+.commentsleaved-div .usercomment-div div button::after{
+    font-family: "Font Awesome 5 free"; font-weight: 900; content: "\f1f8";
+}
+.commentsleaved-div .usercomment-div div button:hover{
+    color: red;
+}
+
+.button--inative{
+    display: none;
+}
+
+.image-gallery{
+}
+.image-gallery-image{
+    width: 400px;
+    height: 400px;
+    transition: 0.3s all;
+}
+.image-gallery-image:hover{
+    transform: scale(1.2);
+}
+
+.image-gallery-play-button{
+    display: none;
+}
+.image-gallery-right-nav, .image-gallery-left-nav {
+    display: none;
+}
